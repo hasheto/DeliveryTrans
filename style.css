@@ -38,7 +38,8 @@ header {
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
-	border-radius: 25%;
+	border-radius: 7%;
+	background: #000;
 }
 
 .top {
@@ -56,7 +57,7 @@ header {
 }
 
 .push {
-	margin-left: auto;
+    margin-left: auto
 }
 
 
@@ -87,6 +88,7 @@ a:hover {
   padding-right: 5px;
 }
 
+
 .container {
 	height: 67vh;
 }
@@ -94,7 +96,7 @@ a:hover {
 .title {
 	  position: absolute;
 	  margin: 20px auto;
-	  top: 50%;
+	  top: 45%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 }
@@ -132,7 +134,7 @@ h4 {
   padding: 15px;
   text-align: justify;
   line-height: 1.7;
-  /*filter: alpha(opacity=60); For IE8  */
+  /*filter: alpha(opacity=60); For IE8 and earlier */
 }
 
 .dbox {
@@ -227,3 +229,4 @@ and (min-width: 350px) {
 		left: 50%;
 		transform: translate(-50%, -50%);
 }
+
